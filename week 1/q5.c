@@ -17,10 +17,7 @@ int main() {
     int a, b, temp;
 
     printf("Enter two numbers (a and b): ");
-    if (scanf("%d %d", &a, &b) != 2) {
-        printf("Invalid input.\n");
-        return 1;
-    }
+    scanf("%d %d", &a, &b)
 
     if (a > b) {
         temp = a;
